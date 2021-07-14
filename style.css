@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+body {
+  background: #9c44dc;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  margin-top: 5rem;
+}
+
+.showSenha {
+  width: 100%;
+  height: 12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: #442c61;
+  color: #d0b7b0;
+}
+
+.showSenha .senha {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.controles {
+  margin-top: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 49%;
+  background: #bc8ae1;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.buttonBox {
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonBox input {
+  width: 100px;
+  height: 40px;
+
+  margin-right: 1rem;
+}
+
+.clienteSenha {
+  display: flex;
+}
+.clienteSenha strong {
+  margin-left: 10px;
+}
