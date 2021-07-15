@@ -9,7 +9,7 @@ body, input, textarea, select, button {
 }
 
 body {
-  background: #9c44dc;
+  background: #A332B3;
 }
 
 button {
@@ -38,6 +38,14 @@ a {
 
 .titulo {
   margin-top: 5rem;
+}
+
+.titulo h1 {
+  color: #fff;
+}
+
+.caixa {
+  font-size: 2rem;;
 }
 
 .showSenha {
